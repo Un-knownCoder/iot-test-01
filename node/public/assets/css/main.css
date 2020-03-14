@@ -1,0 +1,25 @@
+video {
+    opacity: 0; 
+    visibility: hidden;
+}
+
+.cont {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+canvas {
+    width: 640;
+    height: 480;
+    opacity: .8;
+    transform: translateX(300px);
+    transform-origin: center;
+    border: 10px solid darkgray;
+}
