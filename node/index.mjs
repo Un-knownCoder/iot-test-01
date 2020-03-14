@@ -29,7 +29,7 @@ web.get('/', async (req, res, next) => {
 
 web.post("/login", (req, res) => {
     if (req.body.token) {
-        if (req.body.token == '.pass123.') {
+        if (req.body.token == '.token01.') {
             res.cookie("token", req.body.token, { maxAge: 3600000 });
         }
     }
